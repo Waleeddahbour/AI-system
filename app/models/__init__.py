@@ -1,6 +1,6 @@
-from app.models.accountModels import AccountModel
-from app.models.chatModels import ChatMessages, SenderType
-from app.models.userModels import UserModel, UserRole
+from .accountModels import AccountModel
+from .chatModels import ChatMessages, SenderType
+from .userModels import UserModel, UserRole
 
 __all__ = [
     "AccountModel",
