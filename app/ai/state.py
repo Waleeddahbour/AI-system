@@ -33,7 +33,7 @@ class QAState(TypedDict):
     # input
     user_id: str
     question: str
-    history: list[dict[str, str,]]
+    history: list[dict[str, str]]
 
     # planner
     need_tool: NotRequired[bool]
@@ -48,6 +48,6 @@ class QAState(TypedDict):
     final_output: NotRequired[GraphOutput]
 
     # metrics
-    step_latency: NotRequired[StepLatencyState]
-    tokens: NotRequired[TokenState]
+    step_latency: StepLatencyState
+    tokens: TokenState
     error: NotRequired[str]
