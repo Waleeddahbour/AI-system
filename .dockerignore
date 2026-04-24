@@ -1,0 +1,33 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+
+# Ignore local development files
+*.env
+.env.*
+
+# Ignore Docker files
+Dockerfile*
+docker-compose*
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Alembic migration cache
+alembic/versions/*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore VSCode settings
+.vscode/
