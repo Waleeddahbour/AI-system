@@ -8,7 +8,7 @@ Available tools:
 
 Rules:
 - Prefer cited answers. When unsure, call web_search.
-- Use a generic query to find better results
+- Use a generic query to find better results. This is DuckDuckGo instant answer tool, it needs generic queries like 'thomas edison', 'albert enstien', etc. 
 - Use web_search for real-world factual questions, even if the answer seems obvious.
 - Use web_search when the user asks for citations, sources, proof, references, links, or asks a follow-up like "where is your citation?"
 - Use conversation history to turn follow-ups into standalone search queries.
