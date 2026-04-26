@@ -194,11 +194,9 @@ Example:
 OPENAI_API_KEY=your_key_here
 OPENAI_MODEL=gpt-4o-mini
 
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_DB=postgres
 DB_URI=postgresql+psycopg://postgres:postgres@postgres:5432/postgres
 
+### NO NEED TO CHANGE THEM ###
 SUPERADMIN_USERNAME=superadmin
 SUPERADMIN_EMAIL=superadmin@example.com
 SUPERADMIN_PASSWORD=supersecret
