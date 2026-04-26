@@ -10,6 +10,8 @@ ENV/
 # Ignore local development files
 *.env
 .env.*
+pytest-cache-files-*/
+
 
 # Ignore Docker files
 Dockerfile*
